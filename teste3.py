@@ -41,9 +41,9 @@ def copiar_e_colar(campo, linha_excel, coluna_excel):
 linha_excel = 2
 
 # Executar automação para copiar campos e colar no Excel
-for i in range(600):  # Ajuste o range para o número de usuários a serem extraídos
+for i in range(1):  # Ajuste o range para o número de usuários a serem extraídos
     # Clicar no usuário e abrir o menu
-    pyautogui.click(92, 675)
+    pyautogui.click(92, 6620)
     pyautogui.rightClick(92, 675)
     pyautogui.click(139, 753)
 

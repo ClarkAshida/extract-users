@@ -1,4 +1,3 @@
 import pyautogui
-import pandas as pd
-from time import sleep
 
+pyautogui.click(92, 665)
